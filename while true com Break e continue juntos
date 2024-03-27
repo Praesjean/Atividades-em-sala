@@ -1,0 +1,37 @@
+#Programa para verificar se numeros são pares ou impares
+#O programa deve parar caso sejam informados 5 números pares ou
+#caso a soma dos impares informados passe de 30
+#vamos informar as somas e as quantidades
+#não podemos aceitar numeros negativos
+#utilizar break e continue
+numPares = 0
+numImpares = 0
+somaPares = 0
+somaImpares = 0
+
+while True:
+    numero = int(input("Informe um número inteiro positivo: "))
+    #caso usuário informe número negativo, volte ao inicio
+    if numero < 0:
+        print("Número negativo - informe novamente...")
+        continue
+
+    #vamos verificar se o numero é par ou nao
+    if numero % 2 == 0: # (é par?)
+        numPares += 1
+        somaPares += numero
+    else: #é impar?
+        numImpares += 1
+        somaImpares += numero
+
+#Encerrar while se numpares for 5 ou se somaimpares for > 30
+    if numPares == 5 or somaImpares > 30:
+        break
+
+print(80*"-")
+print(f"Soma dos pares: {somaPares}")
+print(f"Número de pares: {numPares}")
+print(80*"-")
+print(f"Soma dos impares: {somaImpares}")
+print(f"Número de impares: {numImpares}")
+print(80*"-")
