@@ -1,0 +1,9 @@
+condicao = True
+cont = 0
+
+while condicao:
+    print(cont)
+    cont = cont + 1
+    if cont == 3:
+        continue
+    print("Estou aqui")
