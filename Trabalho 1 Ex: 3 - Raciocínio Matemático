@@ -1,0 +1,23 @@
+#Jean, Arthur Rodrigues, Eduardo JúliO
+
+#Trabalho de Raciocínio Matemático
+
+#Resolva cada expressão na forma z = a + bi:
+
+a = (5+7j) + (4+6j)
+print(a)
+
+b = (1 + 3j) - (6 - 5j)
+print(b)
+
+c = (5 + 6j) * (2 + 7j)
+print(c)
+
+d = (3 + 4j) * (3 + 4j)
+print(d)
+
+e = (1 + 2j) / (3 + 4j)
+print(e)
+
+f = (3 - 4j) / (6 - 5j)
+print(f)
