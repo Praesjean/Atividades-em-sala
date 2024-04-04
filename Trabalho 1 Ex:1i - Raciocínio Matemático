@@ -1,0 +1,27 @@
+#Jean, Arthur Rodrigues, Eduardo Júlio
+
+#Trabalho
+import math
+pi = math.pi
+
+R = {1,3,pi,4,1,9,10}
+T = {1,3,pi}
+S = {1,3,9,10}
+U = {1,3,pi,1}
+
+#Indique V ou F para cada alternativa:
+print(1 in R)
+
+print(1 in S)
+
+print({0} <= U)
+
+print({1,10} <= T)
+
+print({1,9} <= S)
+
+print(T < R)
+
+print({1} in S)
+
+print(0 in S)
