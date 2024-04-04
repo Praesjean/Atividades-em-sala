@@ -1,0 +1,18 @@
+#Jean, Arthur Rodrigues, Eduardo Júlio
+
+#Trabalho de Raciocínio Matemático
+
+A = {2,4,5,6,8}
+B = {1,4,5,9}
+C = {2,3,4}
+S = {0,1,2,3,4,5,6,7,8,9}
+
+#Exercicio 2:
+
+print(A - B)
+
+print(S - A)
+
+print(A & (S - A))
+
+print(C - B)
