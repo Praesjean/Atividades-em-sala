@@ -1,0 +1,15 @@
+Pokedex = ['Pikachu','Charmander','Pidgey']
+
+#Valor e Range
+for i in range (0, len(Pokedex)):
+    print(Pokedex[i])
+
+#Elemento e vetor
+for Pokemon in Pokedex:
+    print(Pokemon)
+
+for i in range(0,10):
+    if i % 2 != 0:
+        print(f"{i} é impar.")
+    else:
+        print(f"{i} é par.")
